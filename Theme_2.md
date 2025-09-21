@@ -295,7 +295,7 @@ print(str.lower())
 #Найти сумму квадратов двух чисел, введенных с клавиатуры
 
 ```python
-a, b = map(int, input())
+a, b = map(int, input().split())
 print(a**2 + b**2)
 ```
 
