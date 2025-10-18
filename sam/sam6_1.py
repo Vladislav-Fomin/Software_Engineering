@@ -1,0 +1,5 @@
+user_input = input("Введите последовательность чисел через пробел: ").split()
+user_tuple = tuple(user_input)
+user_list = list(user_input)
+print(user_tuple)
+print(user_list)
