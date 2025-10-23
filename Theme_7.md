@@ -33,7 +33,7 @@ print(f.readline())
 f.close()
 ```
 ### Текстовый файл
-[input1.txt](./sam/input1.txt)
+[input1.txt](./lab/input1.txt)
 
 ### Результат.
 ![Результат выполнения](pic/lab7_2.png)
@@ -50,7 +50,7 @@ print(f.readlines())
 f.close()
 ```
 ### Текстовый файл
-[input1.txt](./sam/input1.txt)
+[input1.txt](./lab/input1.txt)
 
 ### Результат.
 ![Результат выполнения](pic/lab7_3.png)
@@ -66,7 +66,7 @@ with open('input1.txt') as f:
     print(f.readlines())
 ```
 ### Текстовый файл
-[input1.txt](./sam/input1.txt)
+[input1.txt](./lab/input1.txt)
 
 ### Результат.
 ![Результат выполнения](pic/lab7_4.png)
@@ -83,7 +83,7 @@ with open('input1.txt') as f:
         print(line)
 ```
 ### Текстовый файл
-[input1.txt](./sam/input1.txt)
+[input1.txt](./lab/input1.txt)
 
 ### Результат.
 ![Результат выполнения](pic/lab7_5.png)
@@ -102,7 +102,7 @@ with open('input.txt', 'r') as f:
     print(result)
 ```
 ### Текстовый файл
-[input1.txt](./sam/input1.txt)
+[input1.txt](./lab/input1.txt)
 
 ### Результат.
 ![Результат выполнения](pic/lab7_6.png)
@@ -120,8 +120,8 @@ with open('input2.txt', 'w') as f:
     print('Done!')
 ```
 ### Текстовый файл
-## До [input1.txt](./sam/input1.txt)
-## После [input2.txt](./sam/input2.txt)
+## До [input1.txt](./lab/input1.txt)
+## После [input2.txt](./lab/input2.txt)
 
 ### Результат.
 ![Результат выполнения](pic/lab7_7.png)
@@ -168,7 +168,7 @@ def longest_words(file):
 print(longest_words('input3.txt'))
 ```
 ### Текстовый файл
-[input3.txt](./sam/input3.txt)
+[input3.txt](./lab/input3.txt)
 
 ### Результат.
 ![Результат выполнения](pic/lab7_9.png)
