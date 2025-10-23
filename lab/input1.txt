@@ -1,0 +1,2 @@
+Hello students!
+Lets talk about work with files on Python
