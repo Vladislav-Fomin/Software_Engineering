@@ -457,6 +457,9 @@ f = open('input1.txt', 'r')
 print(f.readline())
 f.close()
 ```
+### Текстовый файл
+[input1.txt](./sam/input1.txt)
+
 ### Результат.
 ![Результат выполнения](pic/lab7_2.png)
 
@@ -471,6 +474,9 @@ f = open('input1.txt', 'r')
 print(f.readlines())
 f.close()
 ```
+### Текстовый файл
+[input1.txt](./sam/input1.txt)
+
 ### Результат.
 ![Результат выполнения](pic/lab7_3.png)
 
@@ -484,6 +490,9 @@ f.close()
 with open('input1.txt') as f:
     print(f.readlines())
 ```
+### Текстовый файл
+[input1.txt](./sam/input1.txt)
+
 ### Результат.
 ![Результат выполнения](pic/lab7_4.png)
 
@@ -498,6 +507,9 @@ with open('input1.txt') as f:
     for line in f:
         print(line)
 ```
+### Текстовый файл
+[input1.txt](./sam/input1.txt)
+
 ### Результат.
 ![Результат выполнения](pic/lab7_5.png)
 
@@ -514,6 +526,9 @@ with open('input.txt', 'r') as f:
     result = f.readlines()
     print(result)
 ```
+### Текстовый файл
+[input1.txt](./sam/input1.txt)
+
 ### Результат.
 ![Результат выполнения](pic/lab7_6.png)
 
@@ -529,6 +544,10 @@ with open('input2.txt', 'w') as f:
         f.write('\nCycle run ' + line)
     print('Done!')
 ```
+### Текстовый файл
+## До [input1.txt](./sam/input1.txt)
+## После [input2.txt](./sam/input2.txt)
+
 ### Результат.
 ![Результат выполнения](pic/lab7_7.png)
 
@@ -573,6 +592,9 @@ def longest_words(file):
 
 print(longest_words('input3.txt'))
 ```
+### Текстовый файл
+[input3.txt](./sam/input3.txt)
+
 ### Результат.
 ![Результат выполнения](pic/lab7_9.png)
 
@@ -640,6 +662,9 @@ if most_word:
     print(f"\nСамое частое слово: '{most_word}'")
     print(f"Количество повторений: {max}")
 ```
+### Текстовый файл
+[article.txt](./sam/article.txt)
+
 ### Результат.
 ![Результат выполнения](pic/sam7_1.png)
 
@@ -676,6 +701,9 @@ while True:
         print("Неверный выбор")
 
 ```
+### Текстовый файл
+[sam7_2.txt](./sam/sam7_2.txt)
+
 ### Результат.
 ![Результат выполнения](pic/sam7_2.png)
 
@@ -703,6 +731,8 @@ def file_statistics(file):
 
 file_statistics('test.txt')
 ```
+### Текстовый файл
+[test.txt](./sam/test.txt)
 ### Результат.
 ![Результат выполнения](pic/sam7_3.png)
 
@@ -743,6 +773,8 @@ text = input("Введите предложение: ")
 censored_text = censor_text(text, forbidden_words)
 print(f"Результат после цензуры: {censored_text}")
 ```
+### Текстовый файл
+[sam7_4.txt](./sam/sam7_4.txt)
 ### Результат.
 ![Результат выполнения](pic/sam7_4.png)
 
@@ -835,7 +867,7 @@ while True:
         break
 ```
 ### Текстовый файл
-[Задание 10](./sam/diary.txt)
+[diary.txt](./sam/diary.txt)
 ### Результат.
 ![Результат выполнения](pic/sam7_5(1).png)
 ![Результат выполнения](pic/sam7_5(2).png)
